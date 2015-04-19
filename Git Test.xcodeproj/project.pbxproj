@@ -12,9 +12,9 @@
 		618AFD2E1AE344B500413265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618AFD2D1AE344B500413265 /* UIKit.framework */; };
 		618AFD341AE344B600413265 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 618AFD321AE344B600413265 /* InfoPlist.strings */; };
 		618AFD361AE344B600413265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 618AFD351AE344B600413265 /* main.m */; };
-		618AFD3A1AE344B600413265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 618AFD391AE344B600413265 /* AppDelegate.m */; };
+		618AFD3A1AE344B600413265 /* DBAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 618AFD391AE344B600413265 /* DBAAppDelegate.m */; };
 		618AFD3D1AE344B600413265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618AFD3B1AE344B600413265 /* Main.storyboard */; };
-		618AFD401AE344B600413265 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618AFD3F1AE344B600413265 /* ViewController.m */; };
+		618AFD401AE344B600413265 /* DBAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618AFD3F1AE344B600413265 /* DBAViewController.m */; };
 		618AFD421AE344B600413265 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618AFD411AE344B600413265 /* Images.xcassets */; };
 		618AFD491AE344B600413265 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618AFD481AE344B600413265 /* XCTest.framework */; };
 		618AFD4A1AE344B600413265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618AFD291AE344B500413265 /* Foundation.framework */; };
@@ -43,19 +43,19 @@
 		618AFD331AE344B600413265 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		618AFD351AE344B600413265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		618AFD371AE344B600413265 /* Git Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Git Test-Prefix.pch"; sourceTree = "<group>"; };
-		618AFD381AE344B600413265 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		618AFD391AE344B600413265 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		618AFD381AE344B600413265 /* DBAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAAppDelegate.h; sourceTree = "<group>"; };
+		618AFD391AE344B600413265 /* DBAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAAppDelegate.m; sourceTree = "<group>"; };
 		618AFD3C1AE344B600413265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		618AFD3E1AE344B600413265 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		618AFD3F1AE344B600413265 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		618AFD3E1AE344B600413265 /* DBAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAViewController.h; sourceTree = "<group>"; };
+		618AFD3F1AE344B600413265 /* DBAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAViewController.m; sourceTree = "<group>"; };
 		618AFD411AE344B600413265 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		618AFD471AE344B600413265 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		618AFD481AE344B600413265 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		618AFD501AE344B600413265 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		618AFD521AE344B600413265 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		618AFD541AE344B600413265 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		618AFD5E1AE3479300413265 /* DBATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBATest.h; sourceTree = "<group>"; };
-		618AFD5F1AE3479300413265 /* DBATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBATest.m; sourceTree = "<group>"; };
+		618AFD5E1AE3479300413265 /* DBATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBATest.h; path = "Git TestTests/DBATest.h"; sourceTree = SOURCE_ROOT; };
+		618AFD5F1AE3479300413265 /* DBATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBATest.m; path = "Git TestTests/DBATest.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +115,13 @@
 		618AFD2F1AE344B500413265 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
-				618AFD381AE344B600413265 /* AppDelegate.h */,
-				618AFD391AE344B600413265 /* AppDelegate.m */,
+				618AFD381AE344B600413265 /* DBAAppDelegate.h */,
+				618AFD391AE344B600413265 /* DBAAppDelegate.m */,
 				618AFD3B1AE344B600413265 /* Main.storyboard */,
-				618AFD3E1AE344B600413265 /* ViewController.h */,
-				618AFD3F1AE344B600413265 /* ViewController.m */,
+				618AFD3E1AE344B600413265 /* DBAViewController.h */,
+				618AFD3F1AE344B600413265 /* DBAViewController.m */,
+				618AFD5E1AE3479300413265 /* DBATest.h */,
+				618AFD5F1AE3479300413265 /* DBATest.m */,
 				618AFD411AE344B600413265 /* Images.xcassets */,
 				618AFD301AE344B500413265 /* Supporting Files */,
 			);
@@ -141,8 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				618AFD541AE344B600413265 /* Git_TestTests.m */,
-				618AFD5E1AE3479300413265 /* DBATest.h */,
-				618AFD5F1AE3479300413265 /* DBATest.m */,
 				618AFD4F1AE344B600413265 /* Supporting Files */,
 			);
 			path = "Git TestTests";
@@ -254,8 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618AFD401AE344B600413265 /* ViewController.m in Sources */,
-				618AFD3A1AE344B600413265 /* AppDelegate.m in Sources */,
+				618AFD401AE344B600413265 /* DBAViewController.m in Sources */,
+				618AFD3A1AE344B600413265 /* DBAAppDelegate.m in Sources */,
 				618AFD361AE344B600413265 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +462,7 @@
 				618AFD5A1AE344B600413265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		618AFD5B1AE344B600413265 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				618AFD5D1AE344B600413265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

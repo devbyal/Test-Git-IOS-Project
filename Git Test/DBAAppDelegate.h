@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DBAAppDelegate.h
 //  Git Test
 //
 //  Created by Al on 4/18/15.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DBAAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
