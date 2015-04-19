@@ -2,7 +2,7 @@
 //  main.m
 //  Git Test
 //
-//  Created by Alvin Okwuego on 4/18/15.
+//  Created by Al on 4/18/15.
 //  Copyright (c) 2015 Dev By Al. All rights reserved.
 //
 
