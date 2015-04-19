@@ -21,6 +21,7 @@
 		618AFD4B1AE344B600413265 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618AFD2D1AE344B500413265 /* UIKit.framework */; };
 		618AFD531AE344B600413265 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 618AFD511AE344B600413265 /* InfoPlist.strings */; };
 		618AFD551AE344B600413265 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 618AFD541AE344B600413265 /* Git_TestTests.m */; };
+		618AFD601AE3479300413265 /* DBATest.m in Sources */ = {isa = PBXBuildFile; fileRef = 618AFD5F1AE3479300413265 /* DBATest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		618AFD501AE344B600413265 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		618AFD521AE344B600413265 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		618AFD541AE344B600413265 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		618AFD5E1AE3479300413265 /* DBATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBATest.h; sourceTree = "<group>"; };
+		618AFD5F1AE3479300413265 /* DBATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBATest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				618AFD541AE344B600413265 /* Git_TestTests.m */,
+				618AFD5E1AE3479300413265 /* DBATest.h */,
+				618AFD5F1AE3479300413265 /* DBATest.m */,
 				618AFD4F1AE344B600413265 /* Supporting Files */,
 			);
 			path = "Git TestTests";
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				618AFD551AE344B600413265 /* Git_TestTests.m in Sources */,
+				618AFD601AE3479300413265 /* DBATest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
